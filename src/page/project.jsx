@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import Layout from "../components/layouts";
+import projet1 from "../assets/portefolio.png";
 
 function projet() {
   const products = [
@@ -9,8 +10,7 @@ function projet() {
       name: "Earthen Bottle",
       href: "#",
       price: "$48",
-      imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      imageSrc: { projet1 },
       imageAlt:
         "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
     },
@@ -48,7 +48,9 @@ function projet() {
   ];
   return (
     <>
-      <Layout />
+      <Layout>
+        <div>Projets</div>
+      </Layout>
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
