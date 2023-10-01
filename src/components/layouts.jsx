@@ -1,6 +1,7 @@
 import { Children, Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { SimpleFooter } from "./footer";
 
 const user = {
   name: "Téophile Chardon",
@@ -17,7 +18,7 @@ const navigation = [
     href: "/projet",
     current: location.pathname == "/projet",
   },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Contact", href: "/contact", current: false },
   { name: "Reports", href: "#", current: false },
 ];
 
@@ -36,7 +37,7 @@ function layout({ namepage, children }) {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full">
+      <div className="min-h-screen">
         <Disclosure as="nav" className="bg-gray-800">
           {({ open }) => (
             <>
@@ -168,7 +169,7 @@ function layout({ namepage, children }) {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
+        <header className="bg-white shadow-md shadow-red-700">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
               {namepage}
@@ -180,7 +181,9 @@ function layout({ namepage, children }) {
             {children}
           </div>
         </main>
+        <SimpleFooter />
       </div>
+     
     </>
   );
 }

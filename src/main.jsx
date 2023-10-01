@@ -10,6 +10,7 @@ import App from "./App";
 import About from "./page/about";
 import Project from "./page/project";
 import ErrorPage from "./page/404";
+import Contact from "./page/contact";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
       <Route path="/projet" element={<Project />} />
+      <Route path="/contact" element={<Contact/>} />
       <Route path="/404" element={<ErrorPage />} />
       <Route path="*" element={<Navigate to="/404" />} />
     </Routes>
