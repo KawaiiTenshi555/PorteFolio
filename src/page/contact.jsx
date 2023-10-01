@@ -4,22 +4,19 @@ import Layout from "../components/layouts";
 const Contact = () => {
   return (
     <>
-    <Layout>
+    <Layout namepage={"Contact"}>
       <section className="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10">
         <div className="container">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0 px-6">
                 <span className="block mb-4 text-base font-semibold text-primary">
-                  Contact Us
+                  Contact
                 </span>
                 <h2 className="mb-6 text-[32px] font-bold uppercase text-dark sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                  GET IN TOUCH WITH US
-                </h2>
+Mes informations                </h2>
                 <p className="text-base leading-relaxed mb-9 text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                 
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px] border-red-700 rounded-lg p-6 shadow-md shadow-red-700">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
@@ -34,10 +31,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                      Our Location
+                      Localisation
                     </h4>
                     <p className="text-base text-body-color">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      35000, Rennes
                     </p>
                   </div>
                 </div>
@@ -56,10 +53,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                      Phone Number
+                      Numéro de téléphone
                     </h4>
                     <p className="text-base text-body-color">
-                      (+62)81 414 257 9980
+                      (+33)7 69 93 23 **
                     </p>
                   </div>
                 </div>
@@ -76,10 +73,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                      Email Address
+                      Addresse mail
                     </h4>
                     <p className="text-base text-body-color">
-                      info@yourdomain.com
+                      teo**********@gmail.com
                     </p>
                   </div>
                 </div>
@@ -91,21 +88,21 @@ const Contact = () => {
                   <ContactInputBox
                     type="text"
                     name="name"
-                    placeholder="Your Name"
+                    placeholder="Name"
                   />
                   <ContactInputBox
                     type="text"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="Email"
                   />
                   <ContactInputBox
                     type="text"
                     name="phone"
-                    placeholder="Your Phone"
+                    placeholder="Phone"
                   />
                   <ContactTextArea
                     row="6"
-                    placeholder="Your Message"
+                    placeholder="Message"
                     name="details"
                     defaultValue=""
                   />
@@ -114,7 +111,7 @@ const Contact = () => {
                       type="submit"
                       className="w-full p-3 text-red-700 transition border rounded border-primary bg-primary hover:bg-opacity-90 hover:border-red-700"
                     >
-                      Send Message
+                      Envoyer
                     </button>
                   </div>
                 </form>

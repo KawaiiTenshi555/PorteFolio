@@ -38,7 +38,7 @@ function layout({ namepage, children }) {
         ```
       */}
       <div className="min-h-screen flex flex-col">
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-gray-600">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -169,7 +169,7 @@ function layout({ namepage, children }) {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow-md shadow-red-700">
+        <header className="bg-white shadow shadow-red-700">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
               {namepage}
