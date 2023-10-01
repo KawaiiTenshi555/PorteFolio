@@ -37,7 +37,7 @@ function layout({ namepage, children }) {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-screen">
+      <div className="min-h-screen flex flex-col">
         <Disclosure as="nav" className="bg-gray-800">
           {({ open }) => (
             <>
@@ -183,7 +183,7 @@ function layout({ namepage, children }) {
         </main>
         <SimpleFooter />
       </div>
-     
+      
     </>
   );
 }
