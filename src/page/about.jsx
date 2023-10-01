@@ -9,7 +9,7 @@ function about() {
       title: "BAC S",
       href: "https://saintpierresaintpaul.fr/",
       description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+        "Mon parcours en baccalauréat scientifique avec spécialité Informatique et Sciences du Numérique (ISN) a façonné mon intérêt pour le développement informatique, orientant ainsi mes études supérieures et ma future carrière.",
       date: "2018-2020",
       datetime: "2020-03-16",
       category: { title: "Terminé", href: "#" },
@@ -19,7 +19,7 @@ function about() {
       title: "BTS SNIR",
       href: "https://www.st-joseph-lorient.org/",
       description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+        "Mon choix de BTS SNIR (Services Informatiques aux Organisations) a été déterminé par ma passion pour l'informatique et l'aspiration à acquérir des compétences avancées pour répondre aux besoins technologiques des entreprises.",
       date: "2021-2023",
       datetime: "2020-03-16",
       category: { title: "Terminé", href: "#" },
@@ -29,7 +29,7 @@ function about() {
       title: "Pré-MSC Epitech",
       href: "https://www.epitech.eu/fr/ecole-informatique-rennes/",
       description:
-        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+        "Mon choix de pré-MSC à Epitech s'inscrit dans ma volonté de perfectionner mes compétences en informatique et de me préparer de manière intensive pour intégrer le Master of Science in Computer Science (MSC).",
       date: "2023-?",
       datetime: "2020-03-16",
       category: { title: "En cours", href: "#" },
@@ -70,7 +70,7 @@ function about() {
                       {post.title}
                     </a>
                   </h3>
-                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                  <p className="mt-5  text-sm leading-6 text-gray-600">
                     {post.description}
                   </p>
                 </div>
